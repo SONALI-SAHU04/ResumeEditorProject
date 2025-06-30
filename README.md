@@ -1,28 +1,39 @@
-# 📝 Resume Editor with Mock AI Enhancement
+# Resume Editor Project ✨
 
-A **web-based Resume Editor** that allows users to:
-- Upload and edit resumes.
-- Enhance sections with a mock AI backend.
-- Save and retrieve resume data using FastAPI.
-- Download the final resume as JSON.
-
----
+A **React + FastAPI** application to upload, edit, and enhance resumes using AI.
 
 ## 🚀 Features
+✅ Upload resume in PDF/text.  
+✅ Edit resume sections easily.  
+✅ AI-powered enhancement for resumes.  
+✅ Clean, responsive frontend (React).  
+✅ Fast, lightweight backend (FastAPI).
 
-✅ **Frontend (React)**
-- Upload (.pdf/.docx) files (mock parsing with dummy data).
-- Editable fields (Name, Experience, Education, Skills).
-- "Enhance with AI" button per section to send content to backend and display enhanced text.
-- Save complete resume data to backend.
-- Download resume as JSON.
+## 🛠️ Technologies
+- Frontend: React, JavaScript, CSS
+- Backend: FastAPI, Python
+- API: REST (JSON)
 
-✅ **Backend (FastAPI)**
-- `POST /ai-enhance` - Mock AI enhancement of resume sections.
-- `POST /save-resume` - Stores resume JSON on disk or in memory.
-- Auto-generated Swagger Docs at `/docs`.
+## 🖥️ Local Setup
 
----
+### 1️⃣ Clone Repository
+```bash
+git clone https://github.com/SONALI-SAHU04/ResumeEditorProject.git
+cd ResumeEditorProject
 
-## 📂 Project Structure
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home Page](screenshots/homepage.png)
+
+### 📤 Upload Resume Page
+![Upload Resume](screenshots/uploadresume.png)
+
+### ✨ After Enhancement
+![After Enhancement](screenshots/after_enhancement.png)
+
+### ⚡ FastAPI Swagger Docs
+![FastAPI Docs](screenshots/fastApi.png)
+
 
