@@ -1,87 +1,36 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Node.js dependencies
+/frontend/node_modules/
 
-##########################
-# Node / React ignores
-##########################
+# Python virtual environment
+/Backend/venv/
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+# Python cache
+/Backend/__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
-# testing
-/coverage
-
-# production
-/build
-
-# misc
+# Other common system files
 .DS_Store
+
+# Environment variables
+.env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-##########################
-# Python / FastAPI ignores
-##########################
+# Testing
+/coverage
 
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+# Production build
+/build
 
-# Virtual environment
-venv/
-env/
-
-# Distribution / packaging
-build/
-develop-eggs/
-dist/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# PyInstaller
-*.manifest
-*.spec
-
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py,cover
-
-# Environments
-.env
-.venv
-
-# VS Code
-.vscode/
-
-# macOS
-.DS_Store
-
-# Windows
-Thumbs.db
+# PnP files
+/.pnp
+.pnp.js
